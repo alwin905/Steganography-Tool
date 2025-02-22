@@ -1,0 +1,91 @@
+=====================================
+         USER GUIDE FOR 
+      STEGANOGRAPHY TOOL
+=====================================
+
+Welcome to the Steganography Tool! This guide will walk you through how to use this tool to hide files inside an image (encrypt) and extract hidden files from an image (decrypt). Whether you're new to steganography or just looking for a simple way to secure your files, this tool makes it easy with its user-friendly interface.
+
+-------------------------------------
+        TABLE OF CONTENTS
+-------------------------------------
+1. GETTING STARTED
+2. HOW TO HIDE FILES IN AN IMAGE (ENCRYPT)
+3. HOW TO EXTRACT FILES FROM AN IMAGE (DECRYPT)
+4. FINAL THOUGHTS
+
+-------------------------------------
+         GETTING STARTED
+-------------------------------------
+
+**WHAT YOU'LL NEED:**
+- Python 3.6 or later installed on your computer.
+- Pip (Python’s package manager) to install the required libraries.
+
+**SETTING UP THE TOOL:**
+
+1. **Download the Script:**
+   - Save the provided Python script (`guiv2.py`) to a folder on your computer.
+
+2. **Install Required Libraries:**
+   - Open a terminal or command prompt.
+   - Navigate to the folder where you saved the script.
+   - Run the following command to install the necessary libraries:
+
+     pip install -r requirements.txt
+     
+
+3. **Launch the Tool:**
+   - Once the libraries are installed, run the script by typing:
+
+     python guiv2.py
+
+   - The Steganography Tool window will open, and you’re ready to go!
+
+-------------------------------------
+ HOW TO HIDE FILES IN AN IMAGE (ENCRYPT)
+-------------------------------------
+
+1. **Choose a Cover Image:**
+   - In the **Encrypt** tab, under the **Cover Image 🖼️** section:
+   - Click the **Browse** button to select an image file (e.g., my_photo.png).
+   - You can also **drag and drop** the image file directly into the input box.
+
+2. **Select Files to Hide:**
+   - Under the **Files to Hide 🪪** section:
+   - Click the **Browse** button to choose the files you want to hide (e.g., secret.txt, my_document.pdf).
+   - You can select **multiple files at once**.
+   - Alternatively, **drag and drop** the files into the input box.
+
+3. **Choose Where to Save the Output Image:**
+   - Under the **Output Image 🔏** section:
+   - Click the **Browse** button to specify where you want to save the new image with the hidden files (e.g., hidden_image.png).
+   - You can also **drag and drop** the desired location into the input box.
+
+4. **Encrypt the Files:**
+   - Click the **Encrypt** button to hide the selected files inside the cover image.
+   - If everything goes well, you’ll see a **success message** confirming that the files have been hidden in the output image.
+
+-------------------------------------
+ HOW TO EXTRACT FILES FROM AN IMAGE (DECRYPT)
+-------------------------------------
+
+1. **Select the Stegano Image:**
+   - In the **Decrypt** tab, under the **Stegano Image** section:
+   - Click the **Browse** button to select the image that contains the hidden files (e.g., hidden_image.png).
+   - You can also **drag and drop** the image file into the input box.
+
+2. **Choose Where to Save the Extracted Files:**
+   - Under the **Output Directory** section:
+   - Click the **Browse** button to select the folder where you want to save the extracted files.
+   - Alternatively, **drag and drop** the desired folder into the input box.
+
+3. **Decrypt the Files:**
+   - Click the **Decrypt** button to extract the hidden files from the image.
+   - If successful, you’ll see a **message confirming** that the files have been extracted to the specified folder.
+
+-------------------------------------
+         FINAL THOUGHTS
+-------------------------------------
+
+The **Steganography Tool** is a simple and effective way to hide and extract files within images. Whether you’re protecting **sensitive information** or just having fun with hidden data, this tool makes the process **straightforward and secure**.
+
